@@ -1216,8 +1216,8 @@
     (pin "7" (uuid b448b7af-88ef-42ae-b5dc-7620ceb602e3))
     (pin "8" (uuid 3d735343-e249-4939-9435-8d5eafe212e0))
     (pin "9" (uuid 68d4e5bf-89ab-434d-9058-b477f98c4d04))
-    (pin "Pad" (uuid 9918b0c8-7e52-4cf6-8637-6d6fc0c5ab39))
-    (pin "Pad" (uuid 9918b0c8-7e52-4cf6-8637-6d6fc0c5ab39))
+    (pin "Pad" (uuid 9918b0c8-7e52-4cf6-8637-6d6fc0c5ab3a))
+    (pin "Pad" (uuid 9918b0c8-7e52-4cf6-8637-6d6fc0c5ab3a))
   )
 
   (symbol (lib_id "Device:C") (at 198.755 105.41 270) (unit 1)
