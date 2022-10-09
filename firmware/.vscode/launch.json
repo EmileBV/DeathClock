@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/DeathClock.elf",
+            "name": "Debug STM32",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "Build STM",
+            "device": "stm32l010x4.s",
+            "svdFile": "${workspaceRoot}/device/stm32l0x0.svd",
+            "interface": "swd",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/DeathClock.elf",
+            "name": "Attach STM32",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "Build STM",
+            "device": "stm32l010x4.s",
+            "svdFile": "${workspaceRoot}/device/stm32l0x0.svd",
+            "interface": "swd",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+}

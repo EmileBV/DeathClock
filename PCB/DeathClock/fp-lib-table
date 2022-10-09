@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "CoinCellHolder")(type "KiCad")(uri "${KIPRJMOD}/lib/CoinCellHolder.pretty")(options "")(descr ""))
+  (lib (name "FFC2B35-24-T")(type "KiCad")(uri "${KIPRJMOD}/lib/FFC2B35-24-T.pretty")(options "")(descr ""))
+  (lib (name "MCU_STM32L010xx")(type "KiCad")(uri "${KIPRJMOD}/lib/MCU_STM32L010xx.pretty")(options "")(descr ""))
+)

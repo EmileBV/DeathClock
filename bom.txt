@@ -1,0 +1,27 @@
+screen
+	https://www.mouser.ca/ProductDetail/Pervasive-Displays/E2154CS0C1?qs=81r%252BiQLm7BRJs1q0y8kw4A%3D%3D
+	https://www.digikey.ca/short/02f04dr4
+	E2154CS0C1 
+	
+mcu
+	https://www.digikey.ca/short/brm0pvjz
+	STM32L010C6T6
+	
+battery
+	CR2430
+	
+battery holder
+	https://www.digikey.ca/short/hr0fm4jj
+	BH-109B-5
+	
+connector
+	https://www.digikey.ca/short/h8t5zh5f
+	FFC2B35-24-T
+	
+possible github library for epaper display
+	https://github.com/waveshare/e-Paper
+
+crystal
+	https://www.digikey.ca/short/vbm5q2j8
+	CM8V-T1A-32.768KHZ-6PF-20PPM-TA-QC
+	

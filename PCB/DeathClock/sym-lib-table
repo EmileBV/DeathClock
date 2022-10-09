@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "EDP_24pin_conn")(type "KiCad")(uri "${KIPRJMOD}/lib/EDP_24pin_conn.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_STM32L010F4Px")(type "KiCad")(uri "${KIPRJMOD}/lib/MCU_STM32L010F4Px.kicad_sym")(options "")(descr ""))
+)
