@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "DeathClock.step",
+      "step": "../../3D/step/PCB_step/DeathClock.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
