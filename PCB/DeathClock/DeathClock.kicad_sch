@@ -1,531 +1,1018 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "CoinCellHolder:AdamTech_CR2430_BH-109B-5" (in_bom yes) (on_board yes)
-      (property "Reference" "BAT" (id 0) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AdamTech_CR2430_BH-109B-5" (id 1) (at 1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "CoinCellHolder:AdamTech_CR2430_BH-109B-5_num_pads" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AdamTech_CR2430_BH-109B-5_0_1"
-        (rectangle (start -8.89 -17.78) (end 1.27 -31.75)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 -24.13)
-            (xy 0 -24.13)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -25.4)
-            (xy -2.54 -25.4)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -25.4)
-            (xy -3.81 -26.67)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -24.13)
-            (xy -3.81 -22.86)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "AdamTech_CR2430_BH-109B-5_1_1"
-        (pin power_out line (at -6.35 -15.24 270) (length 2.54)
-          (name "VBAT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at -3.81 -15.24 270) (length 2.54)
-          (name "VBAT" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at -1.27 -15.24 270) (length 2.54)
-          (name "VBAT" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at -3.81 -34.29 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 216.535 50.8) (diameter 0) (color 0 0 0 0)
-    (uuid 1368b416-906e-43db-9bb9-52a8f4fa3a52)
-  )
-
-  (no_connect (at 212.725 52.705) (uuid 6ee61f79-0a3e-493e-9da0-35a3bcccb5a8))
-
-  (wire (pts (xy 215.265 71.755) (xy 215.265 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 10f27ce6-c095-484f-ab79-b8324fd16755)
-  )
-  (wire (pts (xy 139.7 55.88) (xy 176.53 55.88))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1775e352-71a7-4fed-91a4-9aaac9760c0f)
-  )
-  (wire (pts (xy 139.7 53.34) (xy 176.53 53.34))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 40456996-84f7-467b-b81e-dd38a9a4d557)
-  )
-  (wire (pts (xy 139.7 50.8) (xy 176.53 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 461fc834-b364-4ed5-8044-f8baebba4038)
-  )
-  (wire (pts (xy 139.7 66.04) (xy 176.53 66.04))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 538903bc-0e34-43ea-ac93-d986d7208b3d)
-  )
-  (wire (pts (xy 216.535 50.8) (xy 215.265 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 611cc3db-e413-4447-bc55-8b16dc009df8)
-  )
-  (wire (pts (xy 217.805 50.8) (xy 216.535 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7bf01897-3fc3-4f01-8cf0-59b58c8f70ee)
-  )
-  (wire (pts (xy 139.7 58.42) (xy 176.53 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7debcece-9c4b-47e2-be0d-f28cd3a89bf2)
-  )
-  (wire (pts (xy 139.7 48.26) (xy 176.53 48.26))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9401def0-0002-4429-9540-243d75c3a35a)
-  )
-  (wire (pts (xy 216.535 48.26) (xy 216.535 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a34919b4-fff9-45bc-be0b-f85fb81fa9e2)
-  )
-  (wire (pts (xy 215.265 50.8) (xy 215.265 52.705))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b9d26d37-4915-4b9c-a423-639a5d37e54b)
-  )
-  (wire (pts (xy 139.7 60.96) (xy 176.53 60.96))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid cedef7c2-b636-4ad5-8c88-9396f688d601)
-  )
-  (wire (pts (xy 217.805 52.705) (xy 217.805 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e3011fd7-7389-45ba-a1a5-27666515cb66)
-  )
-  (wire (pts (xy 139.7 63.5) (xy 176.53 63.5))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ffb5b4c0-312e-4634-bcfa-426e45847fff)
-  )
-
-  (symbol (lib_id "power:GND") (at 215.265 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid db221e2e-16e2-411b-9678-0f2bcd58a060)
-    (property "Reference" "#PWR014" (id 0) (at 215.265 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 215.265 78.105 0))
-    (property "Footprint" "" (id 2) (at 215.265 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 215.265 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8ebceef3-39f1-4c59-bf20-9f3ed3a4f830))
-  )
-
-  (symbol (lib_id "CoinCellHolder:AdamTech_CR2430_BH-109B-5") (at 219.075 37.465 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid e9aeae42-e3cd-4459-8869-9c06e862b995)
-    (property "Reference" "BAT1" (id 0) (at 220.98 60.9599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "AdamTech_CR2430_BH-109B-5" (id 1) (at 220.98 63.4999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "CoinCellHolder:AdamTech_CR2430_BH-109B-5_num_pads" (id 2) (at 219.075 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 219.075 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67ba57a7-a16e-4aa8-8f01-c3d4b455de0e))
-    (pin "2" (uuid cb110e35-fd57-433c-b8a9-d52ade876751))
-    (pin "3" (uuid fdc7e517-1586-452b-9ec7-f7a3f36f0bd2))
-    (pin "4" (uuid 691fdcc1-1a7f-4e3d-a71f-694df93ad36c))
-  )
-
-  (symbol (lib_id "power:VCC") (at 216.535 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f3ba56bf-dc73-46ce-baf4-178b1da76b36)
-    (property "Reference" "#PWR03" (id 0) (at 216.535 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (id 1) (at 216.535 42.545 0))
-    (property "Footprint" "" (id 2) (at 216.535 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 216.535 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c849e86-e149-44f3-8e6f-1e68de7023ea))
-  )
-
-  (sheet (at 106.045 41.275) (size 33.655 32.385) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid a411903f-4de6-4ee7-aee3-770ddf1a3374)
-    (property "Sheet name" "edp" (id 0) (at 106.045 40.5634 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "edp.kicad_sch" (id 1) (at 106.045 74.2446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "edp_busy" output (at 139.7 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 146fe0d2-e912-4231-a55f-fc267c2581b9)
-    )
-    (pin "edp_spi_clk" input (at 139.7 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b83e41aa-a3b6-4dfc-9b50-6778dc4d1787)
-    )
-    (pin "edp_bs" input (at 139.7 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3201874b-9e2f-42c4-9fd5-0555dced8556)
-    )
-    (pin "edp_reset" input (at 139.7 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e928dc7d-865d-4875-97b8-26738135e818)
-    )
-    (pin "edp_spi_mosi" input (at 139.7 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3e36de44-9e67-46fd-9514-3e348db6844d)
-    )
-    (pin "edp_spi_cs" input (at 139.7 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 76d6899c-fb6b-4a63-8ca8-33519ecd67d7)
-    )
-    (pin "edp_dc" input (at 139.7 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fc2f8632-9669-4ad3-a77d-b7c5959dba2f)
-    )
-    (pin "VCC_Enable" input (at 139.7 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 46e0cebb-3eac-4226-ba0b-05e25971429e)
-    )
-  )
-
-  (sheet (at 176.53 44.45) (size 29.845 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid b426553d-4a7e-4896-84cf-af69497a695e)
-    (property "Sheet name" "mcu" (id 0) (at 176.53 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "mcu.kicad_sch" (id 1) (at 176.53 69.1646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "edp_cs" output (at 176.53 48.26 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9f021692-b7d9-4314-bc76-e886c924b952)
-    )
-    (pin "edp_spi_mosi" output (at 176.53 50.8 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 99a13b29-cc88-460b-b8a3-7b145875c95e)
-    )
-    (pin "edp_spi_clk" output (at 176.53 53.34 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3d8ccee1-9cd0-4681-ad26-d76820080527)
-    )
-    (pin "edp_busy" input (at 176.53 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5a03341b-6379-4f56-b7ff-29cd1aab3da2)
-    )
-    (pin "edp_reset" output (at 176.53 58.42 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 470d6dd2-e7a1-429e-92b2-6c20ee19cebb)
-    )
-    (pin "edp_bs" output (at 176.53 60.96 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6084f40b-321e-4614-9cd0-4851e1d1de54)
-    )
-    (pin "edp_dc" output (at 176.53 63.5 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 19c6c372-ddb5-430b-ae5e-25b78f18d767)
-    )
-    (pin "edp_vcc_en" output (at 176.53 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f410db86-329f-40a0-b861-e143391728a6)
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e" (page "3"))
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374" (page "4"))
-  )
-
-  (symbol_instances
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/0d735845-78c9-4f3d-bfe3-958742c812c3"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/537693f2-9515-4724-9540-0bef46dfbb54"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f3ba56bf-dc73-46ce-baf4-178b1da76b36"
-      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/669fccc0-ec18-4733-9d76-2dfeb4ebb662"
-      (reference "#PWR04") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/3cdb2330-19ab-468c-907d-5f64420ca6fa"
-      (reference "#PWR05") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/60bc19a2-deb6-4a51-bb3e-7067d7dc5470"
-      (reference "#PWR06") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/b3ca7fac-93f0-4d34-b789-5d1199a2e73d"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/73351afc-4828-4aa6-9c2f-e05f5d08c4fb"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/922b2b4f-3ffc-4e82-ad6b-d2344d615099"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/50e34720-03ac-4423-a7aa-e34ee65e7e23"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/7167de57-677d-48d8-a062-06c8b8093dfc"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/9b12e267-8432-45f5-b760-1f375ec9040f"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/e9cec692-5ead-4ec4-9b9f-b4806f04034c"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/db221e2e-16e2-411b-9678-0f2bcd58a060"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/3359bf41-ea72-4e0e-bd78-b23c24479eed"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/f6c8e78a-756b-41d1-abb4-8d8319e5d93a"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/9a5da808-1121-4f9e-9019-c160abdd38fd"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/76a5e638-bc54-4e43-9485-6bcabd7c77b4"
-      (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/e9aeae42-e3cd-4459-8869-9c06e862b995"
-      (reference "BAT1") (unit 1) (value "AdamTech_CR2430_BH-109B-5") (footprint "CoinCellHolder:AdamTech_CR2430_BH-109B-5_num_pads")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/7be3599b-d07e-43e3-94e9-389e631ed847"
-      (reference "C1") (unit 1) (value "0.1uF / 16V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/234f0baa-169c-4d4b-b289-9986972e37cb"
-      (reference "C2") (unit 1) (value "0.1uF / 6.3V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/113e5331-f7ad-4651-a780-58afd5ba31c6"
-      (reference "C3") (unit 1) (value "4.7uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/24b5d583-02af-45d2-a7ee-7fc4d59bc7f9"
-      (reference "C4") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/f3a17023-cd34-49e4-a60b-f3024168388e"
-      (reference "C5") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/2f8305c6-5139-469a-9a09-a179c5ec821e"
-      (reference "C6") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/1c7c176e-a42e-41ca-bcca-e9e348d082bd"
-      (reference "C7") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/065d6cd4-f392-49ef-b73e-c4581aab9d22"
-      (reference "C8") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/57f9ca16-44e9-4ab2-a535-c3b2451af302"
-      (reference "C9") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/3882afc2-aa23-4257-8113-115dbb4983d8"
-      (reference "C10") (unit 1) (value "1uF / 25V") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/62c8f91e-d081-45a0-b641-212a01ca41a3"
-      (reference "C11") (unit 1) (value "6pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/c2995412-0125-46b5-84e5-f87417db8fb5"
-      (reference "C12") (unit 1) (value "6pF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/c7f3ff9d-d6a2-4b63-86d7-50e2b919e98f"
-      (reference "C13") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/6fc5aafb-5a22-4bda-8f08-f38eb0e112cc"
-      (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/5160cae1-c9cd-47c0-a486-270ddd6b1f4a"
-      (reference "C15") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/deb6739a-d8ee-425e-a460-0621b78ed40d"
-      (reference "C16") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/3b188594-d8c4-4f37-9ba4-a04dccc75f15"
-      (reference "D1") (unit 1) (value "SS2040FL") (footprint "Diode_SMD:D_SOD-123F")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/090496c1-ef98-4717-a470-14b464215f43"
-      (reference "D2") (unit 1) (value "SS2040FL") (footprint "Diode_SMD:D_SOD-123F")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/86ed26a4-f500-4018-a77f-bbe9946bdbae"
-      (reference "D3") (unit 1) (value "SS2040FL") (footprint "Diode_SMD:D_SOD-123F")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/cb867352-1ad1-48de-96fb-ab9a52ae38de"
-      (reference "J1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/17850c2f-399e-4113-a9bb-7b2f2e30c022"
-      (reference "J2") (unit 1) (value "EDP_24pin_conn FFC2B35-24-T") (footprint "FFC2B35-24-T:FFC2B35-24-T")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/be29eaf3-8560-4523-a87a-52b5d2955043"
-      (reference "L1") (unit 1) (value "10uH ±20% 0.8A 1276AS-H-100M=P2") (footprint "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/c8a603b0-6530-4052-8600-b6a97606d2ec"
-      (reference "Q1") (unit 1) (value "PJA3431_R1_00001") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/3494f087-ff2a-4cd5-af37-0ef519df2dcf"
-      (reference "Q2") (unit 1) (value "PJA3430_R1_00001") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/d95470bd-b04b-4fac-94f3-ea410b14f284"
-      (reference "R1") (unit 1) (value "0.47R") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/78b9464b-1b7e-40ca-8f65-428d0443e7ba"
-      (reference "R2") (unit 1) (value "1") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/41921f01-3215-4722-b987-8d400c13a887"
-      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/a411903f-4de6-4ee7-aee3-770ddf1a3374/33d68f75-a545-4943-ad76-c0409b8d4f90"
-      (reference "R4") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/38dab604-d0a0-4038-8057-2d1def519a09"
-      (reference "U1") (unit 1) (value "STM32L010F4P6") (footprint "TSSOP20")
-    )
-    (path "/b426553d-4a7e-4896-84cf-af69497a695e/d870db21-0d93-4391-b6d1-49e23630b71e"
-      (reference "Y1") (unit 1) (value "Crystal") (footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering")
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CoinCellHolder:AdamTech_CR2430_BH-109B-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AdamTech_CR2430_BH-109B-5"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CoinCellHolder:AdamTech_CR2430_BH-109B-5_num_pads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AdamTech_CR2430_BH-109B-5_0_1"
+				(rectangle
+					(start -8.89 -17.78)
+					(end 1.27 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -24.13) (xy 0 -24.13)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -25.4) (xy -2.54 -25.4)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -24.13) (xy -3.81 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -25.4) (xy -3.81 -26.67)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AdamTech_CR2430_BH-109B-5_1_1"
+				(pin power_out line
+					(at -6.35 -15.24 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -3.81 -15.24 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -3.81 -34.29 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -15.24 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 216.535 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1368b416-906e-43db-9bb9-52a8f4fa3a52")
+	)
+	(no_connect
+		(at 212.725 52.705)
+		(uuid "6ee61f79-0a3e-493e-9da0-35a3bcccb5a8")
+	)
+	(wire
+		(pts
+			(xy 215.265 71.755) (xy 215.265 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f27ce6-c095-484f-ab79-b8324fd16755")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1775e352-71a7-4fed-91a4-9aaac9760c0f")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 176.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40456996-84f7-467b-b81e-dd38a9a4d557")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 176.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461fc834-b364-4ed5-8044-f8baebba4038")
+	)
+	(wire
+		(pts
+			(xy 139.7 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538903bc-0e34-43ea-ac93-d986d7208b3d")
+	)
+	(wire
+		(pts
+			(xy 216.535 50.8) (xy 215.265 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611cc3db-e413-4447-bc55-8b16dc009df8")
+	)
+	(wire
+		(pts
+			(xy 217.805 50.8) (xy 216.535 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf01897-3fc3-4f01-8cf0-59b58c8f70ee")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7debcece-9c4b-47e2-be0d-f28cd3a89bf2")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9401def0-0002-4429-9540-243d75c3a35a")
+	)
+	(wire
+		(pts
+			(xy 216.535 48.26) (xy 216.535 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34919b4-fff9-45bc-be0b-f85fb81fa9e2")
+	)
+	(wire
+		(pts
+			(xy 215.265 50.8) (xy 215.265 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d26d37-4915-4b9c-a423-639a5d37e54b")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedef7c2-b636-4ad5-8c88-9396f688d601")
+	)
+	(wire
+		(pts
+			(xy 217.805 52.705) (xy 217.805 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3011fd7-7389-45ba-a1a5-27666515cb66")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 176.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb5b4c0-312e-4634-bcfa-426e45847fff")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.265 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db221e2e-16e2-411b-9678-0f2bcd58a060")
+		(property "Reference" "#PWR014"
+			(at 215.265 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.265 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.265 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.265 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.265 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ebceef3-39f1-4c59-bf20-9f3ed3a4f830")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoinCellHolder:AdamTech_CR2430_BH-109B-5")
+		(at 219.075 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9aeae42-e3cd-4459-8869-9c06e862b995")
+		(property "Reference" "BAT1"
+			(at 220.98 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AdamTech_CR2430_BH-109B-5"
+			(at 220.98 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CoinCellHolder:AdamTech_CR2430_BH-109B-5_num_pads"
+			(at 219.075 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.075 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.075 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67ba57a7-a16e-4aa8-8f01-c3d4b455de0e")
+		)
+		(pin "2"
+			(uuid "cb110e35-fd57-433c-b8a9-d52ade876751")
+		)
+		(pin "3"
+			(uuid "fdc7e517-1586-452b-9ec7-f7a3f36f0bd2")
+		)
+		(pin "4"
+			(uuid "691fdcc1-1a7f-4e3d-a71f-694df93ad36c")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 216.535 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3ba56bf-dc73-46ce-baf4-178b1da76b36")
+		(property "Reference" "#PWR03"
+			(at 216.535 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 216.535 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.535 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 216.535 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c849e86-e149-44f3-8e6f-1e68de7023ea")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.045 41.275)
+		(size 33.655 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a411903f-4de6-4ee7-aee3-770ddf1a3374")
+		(property "Sheetname" "edp"
+			(at 106.045 40.5634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edp.kicad_sch"
+			(at 106.045 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "edp_busy" output
+			(at 139.7 55.88 0)
+			(uuid "146fe0d2-e912-4231-a55f-fc267c2581b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_spi_clk" input
+			(at 139.7 53.34 0)
+			(uuid "b83e41aa-a3b6-4dfc-9b50-6778dc4d1787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_bs" input
+			(at 139.7 60.96 0)
+			(uuid "3201874b-9e2f-42c4-9fd5-0555dced8556")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_reset" input
+			(at 139.7 58.42 0)
+			(uuid "e928dc7d-865d-4875-97b8-26738135e818")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_spi_mosi" input
+			(at 139.7 50.8 0)
+			(uuid "3e36de44-9e67-46fd-9514-3e348db6844d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_spi_cs" input
+			(at 139.7 48.26 0)
+			(uuid "76d6899c-fb6b-4a63-8ca8-33519ecd67d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "edp_dc" input
+			(at 139.7 63.5 0)
+			(uuid "fc2f8632-9669-4ad3-a77d-b7c5959dba2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_Enable" input
+			(at 139.7 66.04 0)
+			(uuid "46e0cebb-3eac-4226-ba0b-05e25971429e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DeathClock"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 44.45)
+		(size 29.845 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b426553d-4a7e-4896-84cf-af69497a695e")
+		(property "Sheetname" "mcu"
+			(at 176.53 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 176.53 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "edp_cs" output
+			(at 176.53 48.26 180)
+			(uuid "9f021692-b7d9-4314-bc76-e886c924b952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_spi_mosi" output
+			(at 176.53 50.8 180)
+			(uuid "99a13b29-cc88-460b-b8a3-7b145875c95e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_spi_clk" output
+			(at 176.53 53.34 180)
+			(uuid "3d8ccee1-9cd0-4681-ad26-d76820080527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_busy" input
+			(at 176.53 55.88 180)
+			(uuid "5a03341b-6379-4f56-b7ff-29cd1aab3da2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_reset" output
+			(at 176.53 58.42 180)
+			(uuid "470d6dd2-e7a1-429e-92b2-6c20ee19cebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_bs" output
+			(at 176.53 60.96 180)
+			(uuid "6084f40b-321e-4614-9cd0-4851e1d1de54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_dc" output
+			(at 176.53 63.5 180)
+			(uuid "19c6c372-ddb5-430b-ae5e-25b78f18d767")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "edp_vcc_en" output
+			(at 176.53 66.04 180)
+			(uuid "f410db86-329f-40a0-b861-e143391728a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DeathClock"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
